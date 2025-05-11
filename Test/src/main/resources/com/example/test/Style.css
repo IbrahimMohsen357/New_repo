@@ -1,0 +1,20 @@
+/**/
+
+.menu-item:hover {
+    -fx-background-color: rgba(0, 187, 255, 0.1); /* لون أخضر فاتح شفاف */
+    -fx-background-radius: 25;
+}
+
+.menu-item Label {
+    -fx-text-fill: #000000;
+    -fx-font-weight: bold;
+}
+
+.menu-item:hover Label {
+    -fx-text-fill: #008cff;
+}
+
+
+.menu-item:hover FontAwesomeIconView {
+    -fx-fill: #008cff;
+}
